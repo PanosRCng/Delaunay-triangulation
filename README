@@ -2,11 +2,11 @@
 Python implementation of the Delaunay triangulation algorithm 
 as described in http://paulbourke.net/papers/triangulate/
 
-	--> module usage
-		after imported, call the getTriangulation(vertex_list)
+  --> module usage
+	after imported, call the getTriangulation(vertex_list)
 		
-		the vertex_list is a list with instances of the Vertex class (as defined in this file)
-		returns the vertex_list, and a list with instances of the Triangle class (as defined in this file)
+	the vertex_list is a list with instances of the Vertex class (as defined in this file)
+	returns the vertex_list, and a list with instances of the Triangle class (as defined in this file)
 
-	(!) duplicate points will result in undefined behavior
+  (!) duplicate points will result in undefined behavior
 
